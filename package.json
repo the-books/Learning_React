@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node ./src/ch02/2.1.2.1.js"
+    "start": "node ./dist/ch02.4/2.1.js"
   },
   "keywords": [],
   "author": "",

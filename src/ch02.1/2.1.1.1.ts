@@ -1,5 +1,5 @@
 const pizza = true;
-pizza = false;
+// pizza = false;
 console.log(pizza);
 
 export {};

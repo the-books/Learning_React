@@ -1,5 +1,5 @@
 var div;
-var container = document.getElementById('container');
+var container = document.getElementById('container')!;
 
 for (var i = 0; i < 5; i++) {
   div = document.createElement('div');
@@ -8,3 +8,5 @@ for (var i = 0; i < 5; i++) {
   }
   container.appendChild(div);
 }
+
+export {};
