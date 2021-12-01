@@ -9,12 +9,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node ./dist/ch03.3.7/7.0.js"
+    "start": "node ./dist/ch03.3.7/7.0.js",
+    "server": "http-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "http-server": "^14.0.0",
     "typescript": "^4.5.2"
   }
 }
